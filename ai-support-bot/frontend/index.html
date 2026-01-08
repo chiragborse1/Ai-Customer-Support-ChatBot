@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Support Chat</title>
+</head>
+
+<body>
+
+    <h2>AI Customer Support</h2>
+
+    <input id="msg" placeholder="Ask something..." />
+    <button onclick="send()">Send</button>
+
+    <p id="reply"></p>
+
+    <script>
+        async function send() {
+            const msg = document.getElementById("msg").value;
+
+            const res = await fetch("http://127.0.0.1:8000/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: msg })
+            });
+
+            const data = await res.json();
+            document.getElementById("reply").innerText = data.reply;
+        }
+    </script>
+
+</body>
+
+</html>
