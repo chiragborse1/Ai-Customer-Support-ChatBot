@@ -1,5 +1,5 @@
 [ABOUT]
-GenX is an AI customer support chatbot designed to answer user queries and assist customers automatically.
+Neural is an AI customer support chatbot designed to answer user queries and assist customers automatically.
 
 [WORKING_HOURS]
 9 AM to 10 PM, Monday to Sunday
@@ -8,8 +8,8 @@ GenX is an AI customer support chatbot designed to answer user queries and assis
 Refunds are allowed within 24 hours of payment.
 
 [CONTACT]
-Email: support@genx.com
-Phone: 7385983579
+Email: support@neural.com
+Phone: 1234567890
 
 [PAYMENTS]
 We accept UPI, Google Pay, PhonePe, and Paytm.
