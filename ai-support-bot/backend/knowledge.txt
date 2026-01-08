@@ -1,17 +1,15 @@
-Company Name: GenX	
+[ABOUT]
+GenX is an AI customer support chatbot designed to answer user queries and assist customers automatically.
 
-About:
-GenX is a AI Chat Bot.
-
-Working Hours:
+[WORKING_HOURS]
 9 AM to 10 PM, Monday to Sunday
 
-Refund Policy:
+[REFUND_POLICY]
 Refunds are allowed within 24 hours of payment.
 
-Contact Support:
+[CONTACT]
 Email: support@genx.com
 Phone: 7385983579
 
-Payments:
+[PAYMENTS]
 We accept UPI, Google Pay, PhonePe, and Paytm.
